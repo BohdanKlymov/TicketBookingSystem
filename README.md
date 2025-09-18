@@ -1,4 +1,4 @@
-# Cinema cimulation with Python Dictionaries
+# Cinema simulation with Python Dictionaries
 
 This repository contains a small Python project designed to help practice and improve skills with dictionaries (dict). The project simulates a mini cinema in the console, allowing users to interact with a simple movie booking system.
 
