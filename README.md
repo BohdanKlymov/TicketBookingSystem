@@ -1,19 +1,21 @@
 # Cinema simulation with Python Dictionaries
 
-This repository contains a small Python project designed to help practice and improve skills with dictionaries (dict). The project simulates a mini cinema in the console, allowing users to interact with a simple movie booking system.
+This project is a fully functional console-based cinema simulation built with Python, focusing on mastering the use of dictionaries (dict) and structured programming. The program is organized into two separate files — main.py and methods.py — and uses a function-based architecture, where each user action triggers specific functions.
 
+## Project Structure
 
-Key features of the project include:
+Main.py – contains the main program logic, user interface flow, and function calls based on user actions.
 
-Adding new movies with available seats and ticket prices
+Methods.py – contains all core functions responsible for dictionary manipulation, ticket management, and data processing.
 
-Viewing a list of all movies, including movies added by the user
+## Core Features
 
-Booking tickets and showing the total cost for the reservation
+Add New Movies – Add new movies with customizable seat availability and ticket prices.
 
-Returning booked tickets and updating the availability
+View All Movies – Display the complete list of movies, including those added by the user during runtime.
 
-Storing all movie data in a dictionary that is modified dynamically
+Book Tickets – Reserve seats for a selected movie and automatically calculate the total cost.
 
+Return Tickets – Cancel existing bookings, update seat availability in real time, and display the total refund amount to the user based on the tickets they return.
 
-The main goal of this project is to practice working with dictionaries, including adding, updating, and reading nested dictionary data, while building an interactive console application.
+Dynamic Data Storage – All movie-related information is stored and modified within a central dictionary structure.
