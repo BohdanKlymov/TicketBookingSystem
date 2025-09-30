@@ -1,4 +1,4 @@
-# Cinema simulation with Python Dictionaries
+# Cinema simulation
 
 This project is a fully functional console-based cinema simulation built with Python, focusing on mastering the use of dictionaries (dict) and structured programming. The program is organized into two separate files — main.py and methods.py — and uses a function-based architecture, where each user action triggers specific functions.
 
