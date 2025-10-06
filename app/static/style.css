@@ -1,0 +1,61 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    text-shadow: 2px 2px rgb(67, 67, 67);
+}
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+#movie-con {
+    height: 100%;
+    width: 70%;
+    background-color: aquamarine;
+}
+#maintance-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(116, 17, 127);
+}
+.buy-cancel {
+    height: 25%;
+    width: 90%;
+    margin: 5%;
+    background-color: rgb(203, 69, 129);
+    text-align: center;
+    color:  rgb(136, 22, 138);
+    box-shadow: 5px 10px rgb(63, 61, 61);
+} 
+#cancel {
+    height: 25%;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 60%;
+    background-color: rgb(72, 148, 186);
+    box-shadow: 5px 10px rgb(63, 61, 61);
+}
+.buy-cancel label {
+    font-size: 25px; 
+    margin-top: 5px;
+}
+.buy-cancel input {
+    height: 25px;
+    width: 140px;
+    margin-right: 150px;
+    margin-top: 5px;
+    background-color: rgb(199, 190, 190);
+} 
+.buy-cancel button {
+    margin-left: 73%;
+    margin-top: 10%;
+    font-size: 25px;
+    border-radius: 10px;
+    text-shadow: 2px 2px rgb(67, 67, 67);
+    background-color: rgb(128, 193, 160);
+}
+
