@@ -1,21 +1,33 @@
-# Cinema simulation
+# Web Cinema Simulation
 
-This project is a fully functional console-based cinema simulation built with Python, focusing on mastering the use of dictionaries (dict) and structured programming. The program is organized into two separate files — main.py and methods.py — and uses a function-based architecture, where each user action triggers specific functions.
+This project is a web-based cinema simulation built with Python (Flask), HTML, CSS, JavaScript, and SQLite. It provides an interactive web interface where users can browse a list of available movies, view details, and book tickets directly online.
+
+The main goal of this project is to demonstrate the integration of backend logic, database management, and frontend interactivity, using Flask as the core web framework.
 
 ## Project Structure
 
-Main.py – contains the main program logic, user interface flow, and function calls based on user actions.
-
-Methods.py – contains all core functions responsible for dictionary manipulation, ticket management, and data processing.
+<img width="946" height="635" alt="Screenshot 2025-10-07 221040" src="https://github.com/user-attachments/assets/f2853c62-d0e4-44b6-ac70-a8cd3b3b9e56" />
 
 ## Core Features
 
-Add New Movies – Add new movies with customizable seat availability and ticket prices.
+Movie List Interface – Displays all available movies with details such as information about films and price.
 
-View All Movies – Display the complete list of movies, including those added by the user during runtime.
+Ticket Booking System – Allows users to select a movie and book tickets.
 
-Book Tickets – Reserve seats for a selected movie and automatically calculate the total cost.
+Database Integration – Uses SQLite to store movie data, bookings, and availability without requiring external tools like DBeaver.
 
-Return Tickets – Cancel existing bookings, update seat availability in real time, and display the total refund amount to the user based on the tickets they return.
+Dynamic Frontend – Built with HTML, CSS, and JavaScript to create a responsive, user-friendly web interface.
 
-Dynamic Data Storage – All movie-related information is stored and modified within a central dictionary structure.
+Flask Backend – Manages routing, handles form submissions, and interacts with the SQLite database.
+
+## Learning Focus
+
+This project demonstrates a practical combination of backend development with Flask and frontend interaction with HTML/CSS/JS. It focuses on:
+
+Managing data through an SQLite database.
+
+Building dynamic web pages with Flask templates.
+
+Structuring a scalable web application across multiple files and folders.
+
+Using JavaScript to enhance user experience with interactive elements.
