@@ -11,3 +11,6 @@ class Movies(db.Model):
     def __repr__(self):
         return f"Movie: <br>title - {self.title}\
               <br>price - {self.price} <br>description - {self.movie_description} {self.movie_picture}"  
+    
+    def to_dict(self):
+        return {"title": self.title, "price": self.price, "movie_description": self.movie_description, "movie_picture": self.movie_picture}
