@@ -3,19 +3,18 @@ fetch("http://localhost:5000/get-all")
   .then((json) => {
     console.log(json);
 
+    const divList = document.getElementById("list");
+    divList.innerHTML = "";
 
-  const child = document.createElement("p");
-  child.innerHTML = JSON.stringify(json, null, 2);
+    json.forEach((movie) => {
+      const movieBlock = document.createElement("div");
+      movieBlock.classList.add("movie-block");
 
-  const divList = document.getElementById("list");
-  divList.appendChild(child)
+      movieBlock.innerHTML = `
+        <h3>${movie.title}</h3>
+        <p>${movie.movie_description}</p>
+      `;
 
-  const picturesLink = "C:\\AllMyProgramming\\WebCinema\\moviePictures";
-
-  var img = document.createElement("img");
-  img.src = picturesLink + "\\Ronaldo.jpg"
-  img.alt = picturesLink + "\\Ronaldo.jpg"
-  divList.appendChild(img)
-
-  
-})
+      divList.appendChild(movieBlock);
+    });
+  })

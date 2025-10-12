@@ -2,7 +2,6 @@
 html, body {
     height: 100%;
     margin: 0;
-    text-shadow: 2px 2px rgb(67, 67, 67);
 }
 body {
     display: flex;
@@ -16,46 +15,62 @@ body {
 }
 #maintance-con {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     height: 100%;
     width: 30%;
     background-color: rgb(116, 17, 127);
+    text-shadow: 1px 1px rgb(67, 67, 67);
 }
-.buy-cancel {
+.buy-field {
     height: 25%;
     width: 90%;
-    margin: 5%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(203, 69, 129);
     text-align: center;
     color:  rgb(136, 22, 138);
-    box-shadow: 5px 10px rgb(63, 61, 61);
+    box-shadow: 7px 10px rgb(63, 61, 61);
+    border-radius: 25px;
 } 
-#cancel {
-    height: 25%;
-    width: 90%;
-    margin: 5%;
-    margin-bottom: 60%;
-    background-color: rgb(72, 148, 186);
-    box-shadow: 5px 10px rgb(63, 61, 61);
+#list {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #1776a6;
+    overflow-y: scroll;
 }
-.buy-cancel label {
-    font-size: 25px; 
-    margin-top: 5px;
+#row-container {
+    display: flex; 
+    flex-direction: row; 
+    gap: 10px; 
 }
-.buy-cancel input {
-    height: 25px;
-    width: 140px;
-    margin-right: 150px;
-    margin-top: 5px;
-    background-color: rgb(199, 190, 190);
-} 
-.buy-cancel button {
-    margin-left: 73%;
-    margin-top: 10%;
-    font-size: 25px;
-    border-radius: 10px;
-    text-shadow: 2px 2px rgb(67, 67, 67);
-    background-color: rgb(128, 193, 160);
+h2 {
+    font-size: 40px;
+    background-color: rgb(91, 6, 90);
+    color: #f88d00;
 }
+button {
+    height: 40px;
+    width: 70px;
+    background-color: rgb(9, 220, 125);
+    text-shadow: 1px 1px rgb(67, 67, 67);
+    border-radius: 25px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+label {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 2px;
+    color: rgb(91, 6, 90);
+}
+input {
+    height: 40px;
+    width: 70px;
+    text-shadow: 1px 1px rgba(67, 67, 67, 0.602);
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
 
