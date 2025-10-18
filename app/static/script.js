@@ -3,28 +3,27 @@ fetch("http://localhost:5000/get-all")
   .then((json) => {
     console.log(json);
 
+    const link = "C:\\AllMyProgramming\\WebCinema\\moviePictures"
+
     const divList = document.getElementById("list");
-    divList.innerHTML = "";
 
     json.forEach((movie) => {
       const movieBlock = document.createElement("div");
       movieBlock.classList.add("movie-block");
-
-      const btn = document.createElement("button");
-      btn.setAttribute("id", "movies-buttons");
-      btn.classList.add("movie-btn");
-      btn.innerHTML = `
-        <img>${movie.movie_picture}</img>
+      movieBlock.innerHTML = `
+        <img src=${link + movie.movie_picture} height="75%">
         <h3>${movie.title}</h3>
-        <p>${movie.movie_jearOfRelease}</p>
+        <p>${movie.movie_yearOfRelease}</p>
         <p>${movie.price}$</p>
       `;
+      divList.appendChild(movieBlock);
 
-      btn.addEventListener("click", () => {
+      movieBlock.addEventListener("click", () => {
         document.getElementById("movie-output").innerHTML = movie.movie_description;
       });
-
-      movieBlock.appendChild(btn);
-      divList.appendChild(movieBlock);
+      
+      movieBlock.addEventListener("click", () => {
+        document.getElementById("moviename-output").innerHTML = movie.title;
+      });
     });
   })

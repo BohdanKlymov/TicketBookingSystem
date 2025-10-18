@@ -1,4 +1,3 @@
-
 html, body {
     height: 100%;
     margin: 0;
@@ -38,6 +37,8 @@ body {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
+    display: flex;
+    align-items: center;
 }
 #row-container {
     display: flex; 
@@ -90,19 +91,33 @@ button {
     margin-right: 15px;
     margin-left: 15px;
     padding: 5px;
-    background-color: #632626;
     font-size: 25px;
     color: aquamarine;
-    box-shadow: 7px 10px rgb(63, 61, 61);
 }
 #movies-buttons {
     height: 200px;
     width: 97%;
 }
-#movie-description {
-    margin-top: 70px;
-
+.movie-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 69, 129);
+    color: rgb(114, 9, 116);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    width: 60%;
+    height: 85%;
+    cursor: pointer;
 }
-
+#moviename-output {
+    font-size: 40px;
+    color: yellow;
+    margin-top: 40px;
+}
+#movies-pictures {
+    font-size: 50px;
+}
 
 

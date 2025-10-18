@@ -6,7 +6,7 @@ class Movies(db.Model):
     title = db.Column(db.String(128))
     price = db.Column(db.Float())
     movie_description = db.Column(db.String(255))
-    movie_jearOfRelease = db.Column(db.String(128))
+    movie_yearOfRelease = db.Column(db.String(128))
     movie_picture = db.Column(db.String(255))
 
     # def __repr__(self):
@@ -14,4 +14,4 @@ class Movies(db.Model):
     #           <br>price - {self.price} <br>description - {self.movie_description} {self.movie_picture}"  
     
     def to_dict(self):
-        return {"title": self.title, "price": self.price, "movie_description": self.movie_description, "movie_jearOfRelease": self.movie_jearOfRelease, "movie_picture": self.movie_picture}
+        return {"title": self.title, "price": self.price, "movie_description": self.movie_description, "movie_yearOfRelease": self.movie_yearOfRelease, "movie_picture": self.movie_picture}
