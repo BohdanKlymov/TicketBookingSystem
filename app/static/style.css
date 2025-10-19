@@ -87,11 +87,11 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 40%;
+    height: 60%;
     margin-right: 15px;
     margin-left: 15px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 32px;
     color: aquamarine;
 }
 #movies-buttons {
@@ -119,5 +119,3 @@ button {
 #movies-pictures {
     font-size: 50px;
 }
-
-

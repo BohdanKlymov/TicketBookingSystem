@@ -1,5 +1,5 @@
 fetch("http://localhost:5000/get-all")
-  .then((response) => response.json())
+.then((response) => response.json())
   .then((json) => {
     console.log(json);
 
@@ -25,5 +25,11 @@ fetch("http://localhost:5000/get-all")
       movieBlock.addEventListener("click", () => {
         document.getElementById("moviename-output").innerHTML = movie.title;
       });
+    });
+
+    let userName = "hdugd";
+    const bookButton = document.getElementById("book");
+    bookButton.addEventListener("click", () => {
+      alert(userName);
     });
   })
