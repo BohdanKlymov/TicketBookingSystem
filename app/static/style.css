@@ -91,7 +91,7 @@ button {
     margin-right: 15px;
     margin-left: 15px;
     padding: 5px;
-    font-size: 32px;
+    font-size: 28px;
     color: aquamarine;
 }
 #movies-buttons {
@@ -112,10 +112,19 @@ button {
     cursor: pointer;
 }
 #moviename-output {
-    font-size: 40px;
+    font-size: 30px;
     color: yellow;
     margin-top: 40px;
 }
 #movies-pictures {
     font-size: 50px;
+}
+.inf-to-movie {
+    font-size: 20px;
+}
+.inf-in-movie-block {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 60px;
 }
