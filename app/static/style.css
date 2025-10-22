@@ -66,6 +66,9 @@ h2 {
     margin-top: 3px;
     font-size: 20px;
 }
+#book:hover {
+    transform: scale(1.08);
+}
 label {
     font-size: 30px;
     margin-left: 20px;
@@ -122,6 +125,9 @@ button {
     width: 60%;
     height: 85%;
     cursor: pointer;
+}
+.movie-block:hover {
+    transform: scale(1.03);
 }
 #moviename-output {
     font-size: 30px;
