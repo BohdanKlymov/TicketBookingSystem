@@ -10,7 +10,8 @@ body {
 #movie-con {
     height: 100%;
     width: 70%;
-    background-color: rgb(56, 4, 61);
+    background-color: #1B0E2B;
+    background: linear-gradient(135deg, #1B0E2B, #2B164D);
 }
 #maintance-con {
     display: flex;
@@ -20,6 +21,7 @@ body {
     width: 30%;
     background-color: rgb(116, 17, 127);
     text-shadow: 1px 1px rgb(67, 67, 67);
+    background: linear-gradient(135deg, #1B0E2B, #2B164D);
 }
 .buy-field {
     height: 25%;
@@ -27,10 +29,10 @@ body {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(203, 69, 129);
-    text-align: center;
-    color:  rgb(114, 9, 116);
-    box-shadow: 7px 10px rgb(63, 61, 61);
+    background-color: #2E1435;
+    color: rgb(114, 9, 116);
+    border-radius: 15px;
+    border: 2px solid #6D2A73;
     border-radius: 25px;
 } 
 #list {
@@ -48,12 +50,17 @@ body {
 h2 {
     font-size: 40px;
     background-color: rgb(91, 6, 90);
-    color: #f88d00;
+    color: #FFD369;
 }
 #book {
+    display: flex;              
+    justify-content: center; 
+    align-items: center;
     height: 40px;
     width: 70px;
-    background-color: rgb(9, 220, 125);
+    background-color: #FFD369;
+    color: #1B0E2B;
+    filter: brightness(1.2);
     text-shadow: 1px 1px rgb(67, 67, 67);
     border-radius: 25px;
     margin-top: 3px;
@@ -63,7 +70,7 @@ label {
     font-size: 30px;
     margin-left: 20px;
     margin-top: 2px;
-    color: rgb(91, 6, 90);
+    color: #E0D7FF;
 }
 input {
     height: 40px;
@@ -73,7 +80,9 @@ input {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
-    border: 1px inset #ccc;
+    border: 1px inset #FFD369;
+    background-color: #2B1E40;
+    color: #E0D7FF;
 }
 button {
     background-color: rgb(215, 141, 13);
@@ -92,7 +101,7 @@ button {
     margin-left: 15px;
     padding: 5px;
     font-size: 28px;
-    color: aquamarine;
+    color: #A782C3
 }
 #movies-buttons {
     height: 200px;
@@ -102,9 +111,12 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(203, 69, 129);
+    background-color: #2E1435;
     color: rgb(114, 9, 116);
     border-radius: 15px;
+    border: 2px solid #6D2A73;
+    filter: brightness(1.2);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
     padding: 10px;
     margin: 20px;
     width: 60%;
@@ -113,7 +125,7 @@ button {
 }
 #moviename-output {
     font-size: 30px;
-    color: yellow;
+    color: #FFD369;
     margin-top: 40px;
 }
 #movies-pictures {
@@ -121,10 +133,12 @@ button {
 }
 .inf-to-movie {
     font-size: 20px;
+    color: #E0D7FF
 }
 .inf-in-movie-block {
     display: flex;
     flex-direction: row;
     gap: 40px;
     font-size: 60px;
+    color: #A782C3
 }
