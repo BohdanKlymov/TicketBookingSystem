@@ -1,33 +1,92 @@
 # Web Cinema Simulation
 
-This project is a web-based cinema simulation built with Python (Flask), HTML, CSS, JavaScript, and SQLite. It provides an interactive web interface where users can browse a list of available movies, view details, and book tickets directly online.
+Web Cinema Simulation is a fully functional web application built with Python (Flask), HTML, CSS, JavaScript, and SQLite.
+It simulates a small online cinema system, where users can view available movies, check details, and book tickets through an interactive and dynamic web interface.
 
-The main goal of this project is to demonstrate the integration of backend logic, database management, and frontend interactivity, using Flask as the core web framework.
+The project demonstrates the integration of backend logic, database management, and frontend interactivity using Flask as the core framework.
 
 ## Project Structure
 
-<img width="946" height="635" alt="Screenshot 2025-10-07 221040" src="https://github.com/user-attachments/assets/f2853c62-d0e4-44b6-ac70-a8cd3b3b9e56" />
+<img width="700" height="400" alt="Screenshot 2025-10-07 221040" src="https://github.com/user-attachments/assets/f2853c62-d0e4-44b6-ac70-a8cd3b3b9e56" />
+
 
 ## Core Features
 
-Movie List Interface – Displays all available movies with details such as information about films and price.
+### Movie List Interface
 
-Ticket Booking System – Allows users to select a movie and book tickets.
+Displays all available movies with details such as title, description, ticket price, and poster image.
+Users can easily scroll through the list to explore movies currently available.
 
-Database Integration – Uses SQLite to store movie data, bookings, and availability without requiring external tools like DBeaver.
+![MovieListInterface](./Res_imgs/MovieListInterface.png)
 
-Dynamic Frontend – Built with HTML, CSS, and JavaScript to create a responsive, user-friendly web interface.
+### Ticket Booking System
 
-Flask Backend – Manages routing, handles form submissions, and interacts with the SQLite database.
+Users can select a movie, enter the number of seats, and book tickets.
+After booking, the system shows confirmation messages — first displaying the number of seats booked, then the total price paid.
+
+![TicketBookingSystem](./Res_imgs/TicketBookingSystem.png) 
+
+![TBSView1](./Res_imgs/TBSView1.png) 
+
+![TBSView2](./Res_imgs/TBSView2.png)
+
+### Database Integration
+
+All data is stored in an SQLite database, including:
+
+Movie details (title, description, image, price)
+
+Available seats
+
+Booked tickets
+
+No external database tools (like DBeaver) are required — everything runs locally and automatically updates in real time.
+
+![DatabaseIntegration](./Res_imgs/DatabaseIntegration.png)
+
+### Dynamic Frontend
+
+The frontend is built with HTML, CSS, and JavaScript, ensuring smooth interaction between user actions and backend logic.
+Movie elements are dynamically generated from backend data and displayed with real-time updates.
+
+![DynamicFrontend1](./Res_imgs/DynamicFrontend1.png) 
+
+![DynamicFrontend2](./Res_imgs/DynamicFrontend2.png)
+
+### Flask Backend
+
+Flask handles:
+
+Routing between pages
+
+Serving dynamic content
+
+Managing form submissions
+
+Interacting with the SQLite database
+
+### Final Web Application
+
+![FinalWebApplication](./Res_imgs/FinalWebApplication.png)
 
 ## Learning Focus
 
-This project demonstrates a practical combination of backend development with Flask and frontend interaction with HTML/CSS/JS. It focuses on:
+This project was designed as a practical example to combine backend and frontend development into one coherent system.
 
-Managing data through an SQLite database.
+You’ll find examples of:
 
-Building dynamic web pages with Flask templates.
+Using Flask for backend web logic
 
-Structuring a scalable web application across multiple files and folders.
+Managing data via SQLite
 
-Using JavaScript to enhance user experience with interactive elements.
+Enhancing interactivity using JavaScript
+
+Styling interfaces with CSS for a pleasant user experience
+
+## Technologies Used
+
+Python (Flask) – backend web framework
+
+HTML5 / CSS3 / JavaScript – frontend development
+
+SQLite – lightweight local database
