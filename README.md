@@ -19,6 +19,7 @@ Users can easily scroll through the list to explore movies currently available.
 
 ![MovieListInterface](./Res_imgs/MovieListInterface.png)
 
+
 ### Ticket Booking System
 
 Users can select a movie, enter the number of seats, and book tickets.
@@ -26,9 +27,12 @@ After booking, the system shows confirmation messages — first displaying the n
 
 ![TicketBookingSystem](./Res_imgs/TicketBookingSystem.png) 
 
+After pressing the “Book” button:
+
 ![TBSView1](./Res_imgs/TBSView1.png) 
 
 ![TBSView2](./Res_imgs/TBSView2.png)
+
 
 ### Database Integration
 
@@ -44,6 +48,7 @@ No external database tools (like DBeaver) are required — everything runs local
 
 ![DatabaseIntegration](./Res_imgs/DatabaseIntegration.png)
 
+
 ### Dynamic Frontend
 
 The frontend is built with HTML, CSS, and JavaScript, ensuring smooth interaction between user actions and backend logic.
@@ -51,7 +56,10 @@ Movie elements are dynamically generated from backend data and displayed with re
 
 ![DynamicFrontend1](./Res_imgs/DynamicFrontend1.png) 
 
+After clicking on the selected movie:
+
 ![DynamicFrontend2](./Res_imgs/DynamicFrontend2.png)
+
 
 ### Flask Backend
 
@@ -68,6 +76,7 @@ Interacting with the SQLite database
 ### Final Web Application
 
 ![FinalWebApplication](./Res_imgs/FinalWebApplication.png)
+
 
 ## Learning Focus
 
